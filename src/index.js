@@ -1,6 +1,5 @@
-import contactModule from './contact-module'
-import aboutModule from './about-module'
-import menuModule from './menu-module'
+// import contactModule from './contact-module'
+import {createMenu} from './about-module.js'
+// import menuModule from './menu-module'
 
-
-console.log("hola");
+createMenu;

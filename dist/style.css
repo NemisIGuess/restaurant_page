@@ -1,0 +1,57 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+
+:root {
+  font-family: Montserrat;
+  --red: #ed1250;
+  --white: #fff6da;
+  --blue: #042f4b;
+  --accent: #fbc99d;
+}
+
+body {
+  margin: 0;
+  background: url("../src/images/hero.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(112, 106, 106, 0.685);
+}
+
+h1 {
+  color: var(--red);
+  font-size: 4.5vh;
+  align-self: center;
+}
+
+#tabs {
+  align-self: center;
+}
+
+h2 {
+  color: var(--white);
+  font-size: 2vh;
+  align-self: center;
+  caret-color: transparent;
+  display: inline;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+h2:hover {
+  cursor: pointer;
+}
+
+#navBar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--blue);
+}
+
+.selected {
+  color: var(--accent);
+  text-decoration: underline wavy var(--accent);
+}

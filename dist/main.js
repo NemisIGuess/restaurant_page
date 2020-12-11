@@ -1,1 +1,1 @@
-console.log("hola");
+(()=>{"use strict";(()=>{const e=document.querySelector("body"),t=document.createElement("div"),d=document.createElement("h1"),n=document.createElement("div");d.textContent="Sal's Pizza",t.id="navBar",t.appendChild(d),n.id="tabs";for(let e=0;e<3;e++){const t=document.createElement("h2");t.textContent=0==e?"Home":1==e?"Menu":"About us",t.id=`tab${e}`,n.appendChild(t)}t.appendChild(n),e.appendChild(t),document.querySelector("h2").classList.add("selected")})()})();

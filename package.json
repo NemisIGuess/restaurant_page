@@ -9,7 +9,9 @@
   "author": "Nemis",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^5.10.0",
+    "webpack": "^5.10.0"
+  },
+  "devDependencies": {
     "webpack-cli": "^4.2.0"
   }
 }
